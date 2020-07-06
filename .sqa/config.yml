@@ -7,7 +7,7 @@ sqa_criteria:
   qc_doc:
     repos:
       sqaas-web:
-        container: testing-jpl-sqaaas
+        container: sqaaas-testing
         commands:
-          - sh /testing-jpl-sqaaas/script.sh
+          - sh /sqaaas-testing/script.sh
           
