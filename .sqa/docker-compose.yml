@@ -6,5 +6,5 @@ services:
     hostname: "testing-jpl-sqaaas"
     volumes:
      - type: bind
-       source: ./
+       source: ./sqaas-web
        target: /testing-jpl-sqaaas
