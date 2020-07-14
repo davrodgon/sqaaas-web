@@ -1,8 +1,9 @@
-version: "3.6"
+version: "3.7"
 
 services:
   sqaaas-testing:
     image: "ubuntu:16.04"
+    container_name: testing-jpl-sqaas
     hostname: "sqaaas-testing"
     volumes:
      - type: bind
