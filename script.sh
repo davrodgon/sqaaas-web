@@ -18,8 +18,8 @@ npm install
 #Create static website
 npm run build
 
-#git config --global user.email "dianamariand92@gmail.com"
-#git config --global user.name "dianamariand92"
+git config --global user.email "davrodgon@users.noreply.github.com"
+git config --global user.name "davrodgon"
 
 #Go to the dist folder of the gh-pages branch
 git checkout origin/gh-pages
