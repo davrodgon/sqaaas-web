@@ -1,7 +1,7 @@
 cd /testing-jpl-sqaaas
 #Create env.js file
 
-git clone https://$GITHUB_TOKEN@github.com/EOSC-synergy/sqaaas-web.git
+git clone https://$GITHUB_TOKEN@github.com/davrodgon/sqaaas-web.git
 cd sqaaas-web
 git branch -a
 echo 'module.exports = {
@@ -18,8 +18,8 @@ npm install
 #Create static website
 npm run build
 
-git config --global user.email "dianamariand92@gmail.com"
-git config --global user.name "dianamariand92"
+#git config --global user.email "dianamariand92@gmail.com"
+#git config --global user.name "dianamariand92"
 
 #Go to the dist folder of the gh-pages branch
 git checkout origin/gh-pages
