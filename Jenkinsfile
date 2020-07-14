@@ -1,4 +1,4 @@
-@Library(['github.com/indigo-dc/jenkins-pipeline-library@stable/2.0.0']) _
+@Library(['github.com/indigo-dc/jenkins-pipeline-library@'get-config-setting-noncps]) _
 
 def projectConfig
 
